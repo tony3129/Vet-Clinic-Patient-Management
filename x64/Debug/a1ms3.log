@@ -1,0 +1,7 @@
+﻿  a1ms3.c
+  clinic.c
+  core.c
+C:\Users\liuht\Desktop\Computer Programming\Semester1\IPC-144\Assignment 1\IPC-Project-main\A1\MS3\core.c(60,23): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\liuht\Desktop\Computer Programming\Semester1\IPC-144\Assignment 1\IPC-Project-main\A1\MS3\core.c(207,23): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  a1ms3.vcxproj -> C:\Users\liuht\Desktop\Computer Programming\Semester1\IPC-144\Assignment 1\IPC-Project-main\A1\MS3\x64\Debug\a1ms3.exe
