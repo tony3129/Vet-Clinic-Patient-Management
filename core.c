@@ -1,16 +1,3 @@
-/*/////////////////////////////////////////////////////////////////////////
-                        Assignment 1 - Milestone 3
-Full Name  : Tony Liu
-Student ID#: 024672131
-Email      : tliu55@myseneca.ca
-Section    : E
-
-Authenticity Declaration:
-I declare this submission is the result of my own work and has not been
-shared with any other student or 3rd party content provider. This submitted
-piece of work is entirely of my own creation.
-/////////////////////////////////////////////////////////////////////////*/
-
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
@@ -97,11 +84,6 @@ void displayFormattedPhone(const char* number)
 // USER INPUT FUNCTIONS
 //////////////////////////////////////
 
-//
-// Copy your work done from Milestone #2 (core.c) into this file
-// - Organize your functions in the same order as they are listed in the core.h file
-//
-//1.
 //check if input is an single integer
 int inputInt()
 {
@@ -125,7 +107,6 @@ int inputInt()
 
 }
 
-//2.
 //check if integer is positive
 int inputIntPositive()
 {
@@ -144,7 +125,6 @@ int inputIntPositive()
     return positiveCheck;
 }
 
-//3.
 //make sure integer is between given range
 
 int inputIntRange(int lRange, int uRange)
@@ -163,7 +143,6 @@ int inputIntRange(int lRange, int uRange)
     return rangeCheck;
 }
 
-//4.
 //check if input is a single char
 char inputCharOption(const char validChar[])
 
@@ -190,7 +169,6 @@ char inputCharOption(const char validChar[])
     return charCheck;
 }
 
-//5.
 //check if string input matches a given range
 void inputCString(char* word, int min, int max)
 {
@@ -230,12 +208,6 @@ void inputCString(char* word, int min, int max)
     } while (lengthCheck > max || lengthCheck < min);
 
 }
-
-
-
-//////////////////////////////////////
-// UTILITY FUNCTIONS
-//////////////////////////////////////
 
 
 
